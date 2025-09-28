@@ -28,5 +28,21 @@ Follow these steps to set up and run the project locally.
 First, ensure you have all the necessary libraries installed. The primary requirements include libraries like `pandas` and `scikit-learn`.
 
 ```bash
-# Example: Install core dependencies
 pip install pandas scikit-learn
+```
+
+### 2.Training the Model
+
+To train the model from scratch and save the output:
+
+```bash
+python train_model.py
+```
+
+### 3.Making Predictions
+
+Once the model is trained and saved, you can use the following script to load it and make predictions:
+
+```bash
+python predict_model.py
+```
